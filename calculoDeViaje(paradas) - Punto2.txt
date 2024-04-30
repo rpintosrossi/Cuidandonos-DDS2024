@@ -1,0 +1,8 @@
+calculoDeViaje(paradas){
+    paradas.forEach(parada -> {
+        int total = distanceMatrixApi(parada.getOrigen(),parada.getDestino() )
+                  + parada.GetTiempoDeDemora() )
+    }
+    
+};
+
